@@ -13,6 +13,18 @@
 		349B9D8326DAEF5B00228E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8126DAEF5B00228E13 /* Main.storyboard */; };
 		349B9D8526DAEF5C00228E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8426DAEF5C00228E13 /* Assets.xcassets */; };
 		349B9D8826DAEF5C00228E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8626DAEF5C00228E13 /* LaunchScreen.storyboard */; };
+		349B9D9626DAEFC500228E13 /* JDGarmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D9526DAEFC500228E13 /* JDGarmentViewModel.swift */; };
+		349B9D9826DAEFD800228E13 /* JDGarment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D9726DAEFD800228E13 /* JDGarment.swift */; };
+		349B9D9A26DAEFEC00228E13 /* JDGarmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D9926DAEFEC00228E13 /* JDGarmentListVC.swift */; };
+		349B9D9C26DAF00300228E13 /* JDGarmentAddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D9B26DAF00300228E13 /* JDGarmentAddVC.swift */; };
+		349B9DA026DAF02300228E13 /* JDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D9F26DAF02300228E13 /* JDLabel.swift */; };
+		349B9DA226DAF03500228E13 /* JDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DA126DAF03500228E13 /* JDTextField.swift */; };
+		349B9DA426DAF04900228E13 /* JDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DA326DAF04900228E13 /* JDTableViewCell.swift */; };
+		349B9DA726DAF05B00228E13 /* ReuseIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DA626DAF05B00228E13 /* ReuseIdentifiers.swift */; };
+		349B9DA926DAF06100228E13 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DA826DAF06100228E13 /* UIView+Ext.swift */; };
+		349B9DAB26DAF06C00228E13 /* NSLayoutConstraint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DAA26DAF06C00228E13 /* NSLayoutConstraint+Ext.swift */; };
+		349B9DAD26DAF07100228E13 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DAC26DAF07100228E13 /* Date+Ext.swift */; };
+		349B9DB026DAF0A100228E13 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DAF26DAF0A100228E13 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		349B9D8426DAEF5C00228E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		349B9D8726DAEF5C00228E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		349B9D8926DAEF5C00228E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349B9D9526DAEFC500228E13 /* JDGarmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDGarmentViewModel.swift; sourceTree = "<group>"; };
+		349B9D9726DAEFD800228E13 /* JDGarment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDGarment.swift; sourceTree = "<group>"; };
+		349B9D9926DAEFEC00228E13 /* JDGarmentListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDGarmentListVC.swift; sourceTree = "<group>"; };
+		349B9D9B26DAF00300228E13 /* JDGarmentAddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDGarmentAddVC.swift; sourceTree = "<group>"; };
+		349B9D9F26DAF02300228E13 /* JDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDLabel.swift; sourceTree = "<group>"; };
+		349B9DA126DAF03500228E13 /* JDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDTextField.swift; sourceTree = "<group>"; };
+		349B9DA326DAF04900228E13 /* JDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDTableViewCell.swift; sourceTree = "<group>"; };
+		349B9DA626DAF05B00228E13 /* ReuseIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiers.swift; sourceTree = "<group>"; };
+		349B9DA826DAF06100228E13 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		349B9DAA26DAF06C00228E13 /* NSLayoutConstraint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Ext.swift"; sourceTree = "<group>"; };
+		349B9DAC26DAF07100228E13 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		349B9DAF26DAF0A100228E13 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,107 @@
 		349B9D7A26DAEF5B00228E13 /* LululemonChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */,
-				349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */,
+				349B9DAE26DAF09300228E13 /* Managers */,
+				349B9DA526DAF05400228E13 /* Helpers */,
+				349B9D9226DAEFA500228E13 /* Views */,
+				349B9D9126DAEF9E00228E13 /* Model */,
+				349B9D9026DAEF9700228E13 /* ViewModels */,
+				349B9D8F26DAEF8100228E13 /* Support */,
 				349B9D7F26DAEF5B00228E13 /* ViewController.swift */,
-				349B9D8126DAEF5B00228E13 /* Main.storyboard */,
-				349B9D8426DAEF5C00228E13 /* Assets.xcassets */,
-				349B9D8626DAEF5C00228E13 /* LaunchScreen.storyboard */,
 				349B9D8926DAEF5C00228E13 /* Info.plist */,
 			);
 			path = LululemonChallenge;
+			sourceTree = "<group>";
+		};
+		349B9D8F26DAEF8100228E13 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */,
+				349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */,
+				349B9D8126DAEF5B00228E13 /* Main.storyboard */,
+				349B9D8426DAEF5C00228E13 /* Assets.xcassets */,
+				349B9D8626DAEF5C00228E13 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		349B9D9026DAEF9700228E13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D9526DAEFC500228E13 /* JDGarmentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		349B9D9126DAEF9E00228E13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D9726DAEFD800228E13 /* JDGarment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		349B9D9226DAEFA500228E13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D9E26DAF01600228E13 /* Labels */,
+				349B9D9D26DAF01000228E13 /* TextFields */,
+				349B9D9426DAEFAF00228E13 /* TableViewCells */,
+				349B9D9326DAEFAA00228E13 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		349B9D9326DAEFAA00228E13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D9926DAEFEC00228E13 /* JDGarmentListVC.swift */,
+				349B9D9B26DAF00300228E13 /* JDGarmentAddVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		349B9D9426DAEFAF00228E13 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				349B9DA326DAF04900228E13 /* JDTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		349B9D9D26DAF01000228E13 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				349B9DA126DAF03500228E13 /* JDTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		349B9D9E26DAF01600228E13 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				349B9D9F26DAF02300228E13 /* JDLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		349B9DA526DAF05400228E13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				349B9DA626DAF05B00228E13 /* ReuseIdentifiers.swift */,
+				349B9DA826DAF06100228E13 /* UIView+Ext.swift */,
+				349B9DAA26DAF06C00228E13 /* NSLayoutConstraint+Ext.swift */,
+				349B9DAC26DAF07100228E13 /* Date+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		349B9DAE26DAF09300228E13 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				349B9DAF26DAF0A100228E13 /* PersistenceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +254,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				349B9D8026DAEF5B00228E13 /* ViewController.swift in Sources */,
+				349B9DA426DAF04900228E13 /* JDTableViewCell.swift in Sources */,
 				349B9D7C26DAEF5B00228E13 /* AppDelegate.swift in Sources */,
 				349B9D7E26DAEF5B00228E13 /* SceneDelegate.swift in Sources */,
+				349B9D9C26DAF00300228E13 /* JDGarmentAddVC.swift in Sources */,
+				349B9DAD26DAF07100228E13 /* Date+Ext.swift in Sources */,
+				349B9DB026DAF0A100228E13 /* PersistenceManager.swift in Sources */,
+				349B9D9826DAEFD800228E13 /* JDGarment.swift in Sources */,
+				349B9D9626DAEFC500228E13 /* JDGarmentViewModel.swift in Sources */,
+				349B9DA026DAF02300228E13 /* JDLabel.swift in Sources */,
+				349B9DA926DAF06100228E13 /* UIView+Ext.swift in Sources */,
+				349B9DA226DAF03500228E13 /* JDTextField.swift in Sources */,
+				349B9DA726DAF05B00228E13 /* ReuseIdentifiers.swift in Sources */,
+				349B9DAB26DAF06C00228E13 /* NSLayoutConstraint+Ext.swift in Sources */,
+				349B9D9A26DAEFEC00228E13 /* JDGarmentListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
