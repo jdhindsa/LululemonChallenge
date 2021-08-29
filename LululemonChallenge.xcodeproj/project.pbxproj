@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		349B9D7C26DAEF5B00228E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */; };
 		349B9D7E26DAEF5B00228E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */; };
-		349B9D8026DAEF5B00228E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D7F26DAEF5B00228E13 /* ViewController.swift */; };
 		349B9D8326DAEF5B00228E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8126DAEF5B00228E13 /* Main.storyboard */; };
 		349B9D8526DAEF5C00228E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8426DAEF5C00228E13 /* Assets.xcassets */; };
 		349B9D8826DAEF5C00228E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8626DAEF5C00228E13 /* LaunchScreen.storyboard */; };
@@ -31,7 +30,6 @@
 		349B9D7826DAEF5B00228E13 /* LululemonChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LululemonChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		349B9D7F26DAEF5B00228E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		349B9D8226DAEF5B00228E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		349B9D8426DAEF5C00228E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		349B9D8726DAEF5C00228E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				349B9D9126DAEF9E00228E13 /* Model */,
 				349B9D9026DAEF9700228E13 /* ViewModels */,
 				349B9D8F26DAEF8100228E13 /* Support */,
-				349B9D7F26DAEF5B00228E13 /* ViewController.swift */,
 				349B9D8926DAEF5C00228E13 /* Info.plist */,
 			);
 			path = LululemonChallenge;
@@ -253,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				349B9D8026DAEF5B00228E13 /* ViewController.swift in Sources */,
 				349B9DA426DAF04900228E13 /* JDTableViewCell.swift in Sources */,
 				349B9D7C26DAEF5B00228E13 /* AppDelegate.swift in Sources */,
 				349B9D7E26DAEF5B00228E13 /* SceneDelegate.swift in Sources */,
