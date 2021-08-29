@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		347E45A226DC1327006EE205 /* LululemonChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347E45A126DC1327006EE205 /* LululemonChallengeTests.swift */; };
 		349B9D7C26DAEF5B00228E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */; };
 		349B9D7E26DAEF5B00228E13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */; };
 		349B9D8326DAEF5B00228E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 349B9D8126DAEF5B00228E13 /* Main.storyboard */; };
@@ -26,7 +27,20 @@
 		349B9DB026DAF0A100228E13 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B9DAF26DAF0A100228E13 /* PersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		347E45A426DC1327006EE205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 349B9D7026DAEF5B00228E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 349B9D7726DAEF5B00228E13;
+			remoteInfo = LululemonChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		347E459F26DC1327006EE205 /* LululemonChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		347E45A126DC1327006EE205 /* LululemonChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonChallengeTests.swift; sourceTree = "<group>"; };
+		347E45A326DC1327006EE205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349B9D7826DAEF5B00228E13 /* LululemonChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LululemonChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349B9D7B26DAEF5B00228E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		349B9D7D26DAEF5B00228E13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		347E459C26DC1327006EE205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		349B9D7526DAEF5B00228E13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		347E45A026DC1327006EE205 /* LululemonChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				347E45A126DC1327006EE205 /* LululemonChallengeTests.swift */,
+				347E45A326DC1327006EE205 /* Info.plist */,
+			);
+			path = LululemonChallengeTests;
+			sourceTree = "<group>";
+		};
 		349B9D6F26DAEF5B00228E13 = {
 			isa = PBXGroup;
 			children = (
 				349B9D7A26DAEF5B00228E13 /* LululemonChallenge */,
+				347E45A026DC1327006EE205 /* LululemonChallengeTests */,
 				349B9D7926DAEF5B00228E13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				349B9D7826DAEF5B00228E13 /* LululemonChallenge.app */,
+				347E459F26DC1327006EE205 /* LululemonChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +215,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		347E459E26DC1327006EE205 /* LululemonChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347E45A826DC1327006EE205 /* Build configuration list for PBXNativeTarget "LululemonChallengeTests" */;
+			buildPhases = (
+				347E459B26DC1327006EE205 /* Sources */,
+				347E459C26DC1327006EE205 /* Frameworks */,
+				347E459D26DC1327006EE205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347E45A526DC1327006EE205 /* PBXTargetDependency */,
+			);
+			name = LululemonChallengeTests;
+			productName = LululemonChallengeTests;
+			productReference = 347E459F26DC1327006EE205 /* LululemonChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		349B9D7726DAEF5B00228E13 /* LululemonChallenge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 349B9D8C26DAEF5C00228E13 /* Build configuration list for PBXNativeTarget "LululemonChallenge" */;
@@ -209,6 +259,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					347E459E26DC1327006EE205 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 349B9D7726DAEF5B00228E13;
+					};
 					349B9D7726DAEF5B00228E13 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -228,11 +282,19 @@
 			projectRoot = "";
 			targets = (
 				349B9D7726DAEF5B00228E13 /* LululemonChallenge */,
+				347E459E26DC1327006EE205 /* LululemonChallengeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		347E459D26DC1327006EE205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		349B9D7626DAEF5B00228E13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,6 +308,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		347E459B26DC1327006EE205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347E45A226DC1327006EE205 /* LululemonChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		349B9D7426DAEF5B00228E13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +339,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		347E45A526DC1327006EE205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 349B9D7726DAEF5B00228E13 /* LululemonChallenge */;
+			targetProxy = 347E45A426DC1327006EE205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		349B9D8126DAEF5B00228E13 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -289,6 +367,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		347E45A626DC1327006EE205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LululemonChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingwithjay.LululemonChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonChallenge.app/LululemonChallenge";
+			};
+			name = Debug;
+		};
+		347E45A726DC1327006EE205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LululemonChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingwithjay.LululemonChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonChallenge.app/LululemonChallenge";
+			};
+			name = Release;
+		};
 		349B9D8A26DAEF5C00228E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -444,6 +560,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		347E45A826DC1327006EE205 /* Build configuration list for PBXNativeTarget "LululemonChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347E45A626DC1327006EE205 /* Debug */,
+				347E45A726DC1327006EE205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		349B9D7326DAEF5B00228E13 /* Build configuration list for PBXProject "LululemonChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

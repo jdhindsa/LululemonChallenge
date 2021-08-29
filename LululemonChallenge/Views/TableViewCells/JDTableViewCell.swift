@@ -12,8 +12,16 @@ class JDTableViewCell: UITableViewCell {
     var garmentViewModel: JDGarmentViewModel! {
         didSet {
             textLabel?.text = garmentViewModel.garmentName
-            detailTextLabel?.text = Date.convertDateToString(date: garmentViewModel.creationDate)
         }
+    }
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
+        configure()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError()
     }
     
     override func setHighlighted(_ highlighted: Bool, animated: Bool) {
@@ -22,16 +30,8 @@ class JDTableViewCell: UITableViewCell {
         textLabel?.textColor = isHighlighted ? UIColor.white : .black
     }
     
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: .subtitle, reuseIdentifier: reuseIdentifier)
-        
+    private func configure() {
         textLabel?.font = UIFont(name: "Courier", size: 18)
         textLabel?.numberOfLines = 0
-        detailTextLabel?.textColor = .black
-        detailTextLabel?.font = UIFont.systemFont(ofSize: 14, weight: .light)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError()
     }
 }
